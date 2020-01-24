@@ -1,0 +1,8 @@
+(base) quanah:$ cd /lustre/scratch/jenjense/200mammals
+(base) quanah:/lustre/scratch/jenjense/200mammals$ ls -1 | wc -l
+2
+(base) quanah:/lustre/scratch/jenjense/200mammals$ cd
+(base) quanah:$ cd /lustre/scratch/swmandal
+(base) quanah:/lustre/scratch/swmandal$ mkdir testing
+(base) quanah:/lustre/scratch/swmandal$ ls
+testing
