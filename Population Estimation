@@ -1,0 +1,44 @@
+# population
+# calculate population
+# swarup
+# 02/Feb/2020
+
+# 1. import modules
+# 2. Add variables
+# 3. get Inputs
+# 4. define equation
+# 5. print the answer
+
+# import modules
+import math
+ 
+# 2. define variables
+# current population 30735870
+# birth 1 per 7 Sec
+# death 1 per 13 secs 
+#immigration 1 per 35 secs
+# 1 year = 365 days
+# 1 year = 31536000 seconds
+
+Birth = 4505143
+Death = 2425846
+Immigration = 901028
+Current = 30735870
+
+print ("Current Population", Current)
+print ("Yearly Birth", Birth)
+print ("Yearly Death", Death)
+print ("Yearly Immigration", Immigration)
+print ("yearly growth")
+
+# 3. get inputs
+years_input = input ("How many years? ")
+# changing input into integer
+years_input = int(years_input)
+print (years_input)
+
+# 4. define equation
+years_input = Current + (Birth + Immigration - Death)
+
+# 5. print the answer
+print (years_input)
