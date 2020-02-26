@@ -1,0 +1,12 @@
+# average
+# swarup
+# feb/02/2020
+
+import statistics
+
+sum=0
+for i in range(1,21):
+	sum=sum+i
+data = [sum]
+x = statistics.mean(data)
+print(x)
