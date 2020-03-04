@@ -1,0 +1,42 @@
+# base content
+# swarup
+# Mar/03/2020
+# AT content of DNA sequence
+
+##################
+#basic steps
+##################
+#1.get the sequence
+#2.convert a string into a list using the built-in list() function.
+#3..find out the total length of DNA sequence
+#4. find out the number of A & T
+#5.calculate AT content
+
+#####################
+#Detailed Steps
+######################
+
+#1. get the DNA sequence
+dna_string = "ACTGATCGATTACGTATAGTATTTGCTATCATACATATATATCGATGCGTTCAT"
+print (dna_string)
+
+#2. convert a string into a list using the built-in list() function.
+dna_list = list (dna_string)
+print (dna_list)
+
+#3. find out the total number of items in a list one can use Python’s built-in len() function, which returns the length of the list.
+len(dna_list)
+
+
+# 4. Find out the counts of A and T  in the list
+#. Find out the counts of A in the list
+dna_list.count("A")
+
+#. Find out the counts of T in the list
+dna_list.count("T")
+
+#6. AT content
+at_count = dna_list.count("A") + dna_list.count ("T")
+AT_CONTENT = at_count / len(dna_list)
+percentage_AT_CONTENT = AT_CONTENT * 100
+print( percentage_AT_CONTENT )
