@@ -1,0 +1,29 @@
+#Restriction Enzyme
+#SWARUPA NANDA MANDAL
+#Mar/03/2020
+
+#############
+#Basic steps
+##############
+#1.get the sequence
+#2.find out the restriction enzyme cutting site
+#3.Counting the length of each fragment
+#4.print
+
+
+dna_seq = ("ACTGATCGATTACGTATAGTAGAATTCTATCATACATATATATCGATGCGTTCAT")
+
+# find the restriciton enzyme cutting site
+
+cut_site = dna_seq.find("GAATTC")
+
+# get the total length of the  DNA sequence 
+
+total_length = len(dna_seq)
+
+# fragment 1 size
+fragment_1 = cut_site + 1
+# fragment 2 size
+fragment_2 = total_length - fragment_1
+
+print("The first fragment will be ,",fragment_1 ,"bases long, the second fragment will be,", fragment_2 ,"bases long.")
