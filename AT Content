@@ -35,7 +35,7 @@ dna_list.count("A")
 #. Find out the counts of T in the list
 dna_list.count("T")
 
-#6. AT content
+#5. AT content
 at_count = dna_list.count("A") + dna_list.count ("T")
 AT_CONTENT = at_count / len(dna_list)
 percentage_AT_CONTENT = AT_CONTENT * 100
